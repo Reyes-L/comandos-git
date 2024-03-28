@@ -3,12 +3,12 @@
 1. ```git init``` // Inicia git
 2. ```git add .``` // Toma la fotografia a todos los archivos
 3. ```git reset .``` // Elimina la fotografia
-4. ```git commit``` // Crea el commit
+4. ```git commit -m "mensaje de commit"``` // Crea el commit
 5. ```git checkout -- .``` // restaura los cambios al ultimo commit
 6. ```git log``` // muestra el historial de commits
 7. ```git commit --amend``` // modificar commit 
 8. ```git checkout -b nueva-rama``` // Crea una nueva rama y entra en ella
-9. ```git checkout main``` // Moverme a la rama main 
+9. ```git checkout main``` o ```git checkout nombre-de-rama``` // Moverme a la rama main u otra rama
 10. ```git branch -d nueva-rama``` // Elimina la rama creada
 11. ```git push``` // Guardar el commit de git en github
 12. ```git commit -am "mensaje de commit"``` // Crear fotografia y commit con un solo comando
