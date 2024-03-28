@@ -17,3 +17,14 @@
 15. ```git clone remote url-de-git``` // Clona un proyecto de github
 16. ```git merge nueva-rama``` // Fusiona la nueva rama a la rama main (asegurate de estar en la rama main)
 17. ```git branch``` // Ver todas las ramas del repositorio
+
+## Ejemplos del  merge
+
+- Crear nueva rama: ```git checkout -b nueva-rama```
+- Editar algunos archivos: ```git add <archivo>```
+- Crear commit: ```git commit -m "Rama agragada"```
+- Editar algunos archivos: ```git add <archivo>```
+- Crear commit: ```git commit -m "Funcionalidad agregada"```
+- Movernos a la rama principal: ```git checkout main```
+- Fusionar nueva rama: ```git merge nueva-rama```
+- Eliminar la nueva rama creada: ```git branch -d nueva-rama```
