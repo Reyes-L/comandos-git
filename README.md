@@ -28,3 +28,8 @@
 - Movernos a la rama principal: ```git checkout main```
 - Fusionar nueva rama: ```git merge nueva-rama```
 - Eliminar la nueva rama creada: ```git branch -d nueva-rama```
+
+## Release
+- ```git tag``` // Ver todos los tags
+- ```git tag -a v1.0.0 -m "nombre de tag"``` // Crear tag
+- ```git push --tags``` // Subir tags a github
